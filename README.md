@@ -30,4 +30,8 @@ Features a low-noise analog front-end with filtering, STM32 DSP (biquads, Welchâ
 
 ## License
 - **Code**: MIT License  
-- **Hardware**: CERN OHL-W License (see LICENSE files)  
+- **Hardware**: CERN OHL-W License (see LICENSE files)
+## Disclaimer
+- This project is intended for educational purposes only.  
+- The creators accept no responsibility for any harm or misuse resulting from its application.
+
