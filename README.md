@@ -39,7 +39,15 @@ This code runs on STM32 NUCLEO boards (tested on NUCLEO-F446RE, but portable to 
 4. Browse to the unzipped folder and select the project.  
 5. Build the project (CubeIDE will compile the code automatically).  
 6. Connect your NUCLEO board via USB.  
-7. Click the **Run/Debug** button in CubeIDE to flash the firmware.  
+7. Click the **Run/Debug** button in CubeIDE to flash the firmware.
+
+### Pinout (NUCLEO-F446RE)
+- **PC3 (ADC3_IN13)** → EEG analog input from PCB  
+- **PA4 (DAC_OUT1)** → Filtered signal output (scope/debug)  
+- **PA2 (USART2_TX)** → Serial output to PC (band powers)  
+- **PA3 (USART2_RX)** → Not used  
+- **PA5 (LD2 LED)** → Status indicator (DMA callbacks)  
+- **5V & GND rails** → Power for analog PCB  
 
 Once flashed, the board will:  
 - Sample EEG signals from the analog front-end.  The ADC is the PC3 pin. 
