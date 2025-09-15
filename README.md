@@ -42,9 +42,10 @@ This code runs on STM32 NUCLEO boards (tested on NUCLEO-F446RE, but portable to 
 7. Click the **Run/Debug** button in CubeIDE to flash the firmware.  
 
 Once flashed, the board will:  
-- Sample EEG signals from the analog front-end.  The ADC is the 
-- Apply DSP (biquads, Welch’s method) in real time.  
-- Stream band power values (Delta, Theta, Alpha, Beta) via USART for visualization.  
+- Sample EEG signals from the analog front-end.  The ADC is the PC3 pin. 
+- Apply DSP (biquads, Welch’s method) in real time you can see the output on PA4. 
+- Stream band power values (Delta, Theta, Alpha, Beta) via USART for visualization.
+- You can power the PCB using the 5V and GND rails on the Nucleo Board
 
 **Note:** You can view the streamed data using Arduino IDE’s Serial Plotter or any terminal that supports plotting.  
 
