@@ -1,7 +1,7 @@
 # Custom-1-Channel-EEG (PCB + DSP)
 
 A custom single-channel EEG device developed from PCB design to real-time brainwave visualization.  
-Features a low-noise analog front-end with filtering, STM32 DSP (biquads, Welch’s method), and verified alpha detection (~6 dB SNR, ~5× alpha power). See the report to understand how the system works. [Custom 1-Channel EEG Report](docs/Custom_1-Channel_EEG_Device_From_PCB_to_Brainwaves.pdf)
+Features a low-noise analog front-end with filtering, STM32 DSP (biquads, Welch’s method), and verified alpha detection (~6 dB SNR, ~5× alpha power). See the report to understand how the system works: [Custom 1-Channel EEG Report](docs/Custom_1-Channel_EEG_Device_From_PCB_to_Brainwaves.pdf).
 
 ---
 
