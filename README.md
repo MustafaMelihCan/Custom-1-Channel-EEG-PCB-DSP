@@ -1,22 +1,33 @@
-# Custom-1-Channel-EEG(PCB+DSP)
-A custom single-channel EEG device from PCB design to real-time brainwave visualization. Features analog front-end filtering, STM32 DSP (biquads, Welch’s), and verified alpha detection (~6 dB SNR, 5× alpha power). 
+# Custom-1-Channel-EEG (PCB + DSP)
+
+A custom single-channel EEG device developed from PCB design to real-time brainwave visualization.  
+Features a low-noise analog front-end with filtering, STM32 DSP (biquads, Welch’s method), and verified alpha detection (~6 dB SNR, ~5× alpha power).
+
+---
 
 ## Demo
-[![EEG Demo Video](docs/_Project_Thumbnail.png)](https://youtu.be/_DtyJymNVPs?si=jnpwShCtmoJ9ggQ-)
-*Click image to watch on YouTube*
-Demo: https://youtu.be/_DtyJymNVPs
+▶️ Watch the demo video here: [YouTube Link](https://youtu.be/_DtyJymNVPs)  
 
-**Report (PDF):** docs/Custom 1-Channel EEG Device From PCB to Brainwaves.pdf
+**Report (PDF):** [Custom 1-Channel EEG Report](docs/Custom-1-Channel-EEG-Device-From-PCB-to-Brainwaves.pdf)
 
-## Repo layout
-- `hardware/` – Gerber Files / BOM / Drill files
-- `firmware/` – STM32 (CMSIS-DSP) C-code and libraries
-- `docs/` – report, images 
+---
 
-## Quick start
-- Build firmware with STM32CubeIDE (or your toolchain).
-- Place electrodes: O2(active), mastoid(ref), Fz/forehead(DRL).
-- Stream band powers over USART; visualize with serial plotter.
+## Repository Layout
+- `hardware/` – Gerber files, drill files, BOM, LTspice simulations
+- `firmware/` – STM32 (CMSIS-DSP) source code and project files
+- `docs/` – report, schematics, images
+
+---
+
+## Quick Start
+1. Build firmware with STM32CubeIDE (or compatible toolchain).  
+2. Order PCB using Gerber files from `/hardware/`.  
+3. Source components using the BOM in `/hardware/`.  
+4. Connect electrodes: **O2** (active), **mastoid** (reference), **Fz/forehead** (DRL).  
+5. Stream band powers over USART and visualize with a serial plotter.  
+
+---
 
 ## License
-Code: MIT. Hardware: CERN OHL-W (see LICENSE files).
+- **Code**: MIT License  
+- **Hardware**: CERN OHL-W License (see LICENSE files)  
