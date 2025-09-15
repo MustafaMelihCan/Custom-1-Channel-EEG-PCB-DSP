@@ -8,7 +8,7 @@ Features a low-noise analog front-end with filtering, STM32 DSP (biquads, Welch�
 ## Demo
 ▶️ Watch the demo video here: [YouTube Link](https://youtu.be/_DtyJymNVPs)  
 
-**Report (PDF):** [Custom 1-Channel EEG Report](docs/Custom-1-Channel-EEG-Device-From-PCB-to-Brainwaves.pdf)
+**Report (PDF):** [Custom 1-Channel EEG Report](docs/Custom_1-Channel_EEG_Device_From_PCB_to_Brainwaves.pdf)
 
 ---
 
