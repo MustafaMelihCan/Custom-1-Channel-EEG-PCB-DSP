@@ -4,11 +4,9 @@ A custom single-channel EEG device from PCB design to real-time brainwave visual
 **Report (PDF):** docs/Custom 1-Channel EEG Device From PCB to Brainwaves.pdf
 
 ## Repo layout
-- `hardware/` – KiCad, LTspice
-- `firmware/` – STM32 (CMSIS-DSP)
-- `matlab/` – design/validation scripts
-- `results/` – plots, screenshots
-- `docs/` – report, images
+- `hardware/` – Gerber Files / BOM / Drill files
+- `firmware/` – STM32 (CMSIS-DSP) C-code and libraries
+- `docs/` – report, images 
 
 ## Quick start
 - Build firmware with STM32CubeIDE (or your toolchain).
