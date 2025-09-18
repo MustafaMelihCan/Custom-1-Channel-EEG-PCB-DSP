@@ -25,7 +25,9 @@ Features a low-noise analog front-end with filtering, STM32 DSP (biquads, Welchâ
 2. Order PCB using Gerber files from `/hardware/`.  
 3. Source components using the BOM in `/hardware/`.  
 4. Connect electrodes: **O2** (active), **mastoid** (reference), **Fz/forehead** (DRL).  
-5. Stream band powers over USART and visualize with a serial plotter.  
+5. Stream band powers over USART and visualize with a serial plotter.
+
+![EEG System Pipeline](docs/1_Channel_EEG_System_Pipeline_Final_version.png)
 
 ---
 ## Firmware (STM32 NUCLEO Boards)
@@ -61,7 +63,7 @@ Once flashed, the board will:
 ---
 ## License
 - **Code**: MIT License  
-- **Hardware**: CERN OHL-W License (see LICENSE files)
+- **Hardware**: CERN OHL-W License (see `/LICENCE_Hardware`)
 ## Disclaimer
 - This project is intended for educational purposes only.  
 - The creators accept no responsibility for any harm or misuse resulting from its application.
