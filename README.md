@@ -20,6 +20,7 @@ Features a low-noise analog front-end with filtering, STM32 DSP (biquads, Welchâ
 ---
 
 ## Quick Start
+0. To get an overview of the system look at `/docs/1 Channel EEG System Pipeline Final version`. 
 1. Build firmware with STM32CubeIDE (or compatible toolchain).  
 2. Order PCB using Gerber files from `/hardware/`.  
 3. Source components using the BOM in `/hardware/`.  
